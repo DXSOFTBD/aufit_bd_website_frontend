@@ -9,7 +9,7 @@ const About = () => {
           <h3 className="text-2xl font-bold mb-4">Company Overview</h3>
           <p className="text-lg text-gray-700">
             Aufit is a leading manufacturer of air conditioning systems, providing innovative cooling solutions for homes and businesses. With years of experience and cutting-edge technology, we deliver comfort and efficiency to our customers. 
-            Established in 1986, AUX Group is an enterprise group which covers several industries：air conditioning, power utilization, power distribution, new energy, and medical service. AUX is ranked among China's top 500 enterprises.
+            Established in 1986, AUX Group is an enterprise group which covers several industries：air conditioning, power utilization, power distribution, new energy, and medical service. AUX is ranked among China&aposs top 500 enterprises.
           </p>
         </div>
         <div>
