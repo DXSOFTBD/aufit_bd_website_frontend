@@ -22,7 +22,7 @@ const Navbar = () => {
               onClick={() => scrollToSection('home')} 
               className="text-2xl font-bold text-blue-600"
             >
-              Aufit
+              AufitBD
             </button>
           </div>
           
