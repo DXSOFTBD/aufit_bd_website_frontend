@@ -105,7 +105,7 @@ function ImageModal({ image, onClose }: {
         <button 
           onClick={(e) => {
             e.stopPropagation();
-            onPrevious();
+            // onPrevious();
           }}
           className="absolute left-4 top-1/2 -translate-y-1/2 z-10 text-white bg-black bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition-all"
           aria-label="Previous image"
@@ -118,7 +118,7 @@ function ImageModal({ image, onClose }: {
         <button 
           onClick={(e) => {
             e.stopPropagation();
-            onNext();
+            // onNext();
           }}
           className="absolute right-4 top-1/2 -translate-y-1/2 z-10 text-white bg-black bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition-all"
           aria-label="Next image"
