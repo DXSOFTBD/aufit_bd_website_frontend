@@ -8,8 +8,8 @@ const About = () => {
         <div>
           <h3 className="text-2xl font-bold mb-4">Company Overview</h3>
           <p className="text-lg text-gray-700">
-            Aufit is a leading manufacturer of air conditioning systems, providing innovative cooling solutions for homes and businesses. With years of experience and cutting-edge technology, we deliver comfort and efficiency to our customers. 
-            Established in 1986, AUX Group is an enterprise group which covers several industries：air conditioning, power utilization, power distribution, new energy, and medical service. AUX is ranked among China&aposs top 500 enterprises.
+            Aufit, a premium sub-brand of AUX Group, specializes in manufacturing innovative air conditioning systems for homes and businesses. With the backing of AUX's decades of experience and cutting-edge technology, we deliver superior comfort and efficiency to our customers.
+            Our parent company, AUX Group, was established in 1986 and has grown into a diverse enterprise covering multiple industries including air conditioning, power utilization, power distribution, new energy, and medical services. As part of one of China's top 500 enterprises, Aufit leverages AUX's technological expertise while focusing on premium cooling solutions for the global market.
           </p>
         </div>
         <div>
@@ -27,7 +27,7 @@ const About = () => {
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div className="order-2 md:order-1">
           <Image
-            src="/about_aufit/aux_mission-vission.jpg"
+            src="/image_gallery/AUFIT_1.png"
             alt="Our Mission"
             width={500}
             height={300}

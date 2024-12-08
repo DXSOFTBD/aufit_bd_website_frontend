@@ -22,7 +22,10 @@ export default {
       },
       animation: {
         'fade-in': 'fade-in 0.5s ease-out forwards'
-      }
+      },
+      fontFamily: {
+        'xenois': ['Xenois Super', 'sans-serif'],
+      },
     },
   },
   plugins: [

@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import { useState } from 'react';
 // import Link from 'next/link';
 
@@ -20,9 +21,9 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <button 
               onClick={() => scrollToSection('home')} 
-              className="text-2xl font-bold text-blue-600"
+              className="text-2xl font-bold text-blue-600 font-xenois"
             >
-              AufitBD
+              <Image src="/logo/Aufit Logo.png" alt="Aufit Logo" width={96} height={32} className="h-8" />
             </button>
           </div>
           
@@ -31,22 +32,31 @@ const Navbar = () => {
             <div className="ml-10 flex items-center space-x-4">
               <button 
                 onClick={() => scrollToSection('home')}
-                className="hover:text-blue-600 px-3 py-2"
+                className="hover:text-blue-600 px-3 py-2 font-xenois"
               >
                 Home
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
+                className="hover:text-blue-600 px-3 py-2 font-xenois"
+              >
+                About Aufit
+              </button>
+
+              <button 
+                onClick={() => scrollToSection('dx-group')}
                 className="hover:text-blue-600 px-3 py-2"
               >
-                About
+                DX Group
               </button>
+
               <button 
                 onClick={() => scrollToSection('products')}
                 className="hover:text-blue-600 px-3 py-2"
               >
                 Products
               </button>
+
               <button 
                 onClick={() => scrollToSection('contact')}
                 className="hover:text-blue-600 px-3 py-2"

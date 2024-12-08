@@ -11,7 +11,7 @@ interface ProductCardProps {
     energyRating: string;
     features: string[];
   };
-  price: number;
+  price: string;
 }
 
 const ProductCard = ({ id, name, image, specs, price }: ProductCardProps) => {
@@ -53,6 +53,16 @@ const ProductCard = ({ id, name, image, specs, price }: ProductCardProps) => {
           >
             View Details
           </Link>
+        </div>
+        <div className="mt-4">
+          <a 
+            href="https://godxg.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="w-full block text-center bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
+          >
+            Buy Now
+          </a>
         </div>
       </div>
     </div>
