@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 import { useState } from 'react';
 
 interface ProductCardProps {
@@ -16,7 +16,7 @@ interface ProductCardProps {
   price: string;
 }
 
-const ProductCard = ({ id, name, image, specs, price }: ProductCardProps) => {
+const ProductCard = ({name, image, specs, price }: ProductCardProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (

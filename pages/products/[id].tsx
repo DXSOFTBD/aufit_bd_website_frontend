@@ -1,10 +1,11 @@
 'use client';
-import { useRouter, usePathname } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useLoading } from '@/components/providers/LoadingProvider';
-import { useState } from 'react';
-import { useEffect } from 'react';
+// import { useLoading } from '@/components/providers/LoadingProvider';
+// import { useState } from 'react';
+// import { useEffect } from 'react';
 
 // You'll need to replace this with your actual data fetching logic
 interface Product {
@@ -21,7 +22,7 @@ interface Product {
   description?: string; // Additional field for detailed description
 }
 
-const ProductDetail = () => {
+const ProductDetail = (product: Product) => {
   const { setIsLoading } = useLoading();
   const router = useRouter();
   const [mounted, setMounted] = useState(false);

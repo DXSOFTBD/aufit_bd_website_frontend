@@ -6,7 +6,7 @@ import LoadingSpinner from '../loading/LoadingSpinner';
 
 const LoadingContext = createContext({
   isLoading: false,
-  setIsLoading: (loading: boolean) => {},
+  // setIsLoading: (loading: boolean) => {},
 });
 
 export const useLoading = () => useContext(LoadingContext);
